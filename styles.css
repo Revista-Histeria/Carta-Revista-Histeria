@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Style+Script&display=swap");
+@import url(./assets/fonts/lemonmilk/LEMONMILK-Light.otf);
+
+:root {
+  --bg-card: #f9f3e8;
+  --border-color: #c0a68d;
+  --accent-color: #ff69b4;
+  --text-color: #56331b;
+  --signature-font: "Parisienne", cursive;
+  --main-font: "lemon milk";
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-image: url(./assets/aaaaaa.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-container {
+  width: 550px;
+  height: 780px;
+  background-image: url(./assets/fundo\ carta.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#capture-content {
+  width: 100%;
+  height: 100%;
+}
+
+#thankyou-content {
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
+
+#thankyou-content.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-paragraph {
+  font-size: 20px;
+  font-family: "lemon milk";
+}
+
+.form-content h2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "lemon milk";
+}
+
+.header-content {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.header-content img {
+  height: 70px;
+  width: auto;
+}
+
+.form-content {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.form-input {
+  border: 2px solid var(--accent-color);
+  background-color: white;
+  padding: 12px;
+  font-weight: 600;
+  color: var(--text-color);
+  width: 93%;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+.hint-text {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: "lemon milk";
+}
+
+.submit-button {
+  background-color: var(--accent-color);
+  width: 100%;
+  height: 60px;
+  padding: 0.9rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  background-color: #a3505c;
+}
+
+.thank-you-title {
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+
+.thank-you-icon {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.signature-block {
+  right: 30px;
+  text-align: right;
+}
+
+.signature-block p {
+  font-size: 25px;
+}
+
+.signature-block span {
+  font-size: 35px;
+  color: var(--accent-color);
+  font-family: "Style Script", cursive;
+}
+
+@media (max-width: 425px) {
+  body {
+    background-image: url(./assets/creak\ board.png);
+  }
+
+  .card-container {
+    width: 510px;
+    height: 680px;
+  }
+
+  .form-paragraph {
+    font-size: 16px;
+  }
+
+  .form-content h2 {
+    font-size: 16px;
+  }
+
+  .form-input {
+    padding: 10px;
+  }
+
+  .submit-button {
+    height: 48px;
+  }
+
+  .signature-block p {
+    font-size: 18px;
+  }
+
+  .signature-block span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 397px) {
+  .card-container {
+    height: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-container {
+    height: 720px;
+  }
+}
+
+@media (max-width: 365px) {
+  .card-container {
+    height: 780px;
+  }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Carta - Assinatura da Revista</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body class="main-wrapper">
+    <div id="app-container" class="card-container">
+      <div id="capture-content">
+        <div class="header-content">
+          <img src="./assets/logo-revista-histeria_31.png" alt="" />
+        </div>
+
+        <form
+          action="https://api.staticforms.xyz/submit"
+          method="POST"
+          id="leadForm"
+          class="form-content"
+        >
+          <input
+            type="hidden"
+            name="accessKey"
+            value="sf_1aag8591gh8cf8k361khl86k"
+          />
+
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://wilson656.github.io/Thankyou-carta/"
+          />
+
+          <p class="form-paragraph">
+            Oie, <br />
+            Estamos te convidando para o lançamento mais pop do ano! A revista
+            feita para quem leva a cultura pop a sério - e acredita que ela pode
+            ser relevante, divertida e cheia de significado.
+          </p>
+
+          <h2>
+            Já anota na agenda: dia 26 de janeiro de 2026, e vem com a gente
+            nesse começo.
+          </h2>
+
+          <div class="input-group mb-4">
+            <label for="nameInput">Qual o seu nome ?</label>
+            <input
+              type="text"
+              id="nameInput"
+              name="name"
+              placeholder="João Silva"
+              required
+              class="form-input"
+            />
+          </div>
+
+          <div class="input-group mb-8">
+            <label for="emailInput">Seu melhor e-mail é :</label>
+            <input
+              type="email"
+              id="emailInput"
+              name="email"
+              placeholder="joaosilva@email.com"
+              required
+              class="form-input"
+            />
+            <p class="hint-text">
+              Para não perder nenhuma atualização, inscreva-se na nossa
+              newsletter!
+            </p>
+          </div>
+
+          <div class="signature-block">
+            <p>
+              Ass:<br />
+              <span class="signature">Revista Histeria</span><br />
+            </p>
+          </div>
+
+          <button type="submit" class="submit-button">
+            Receber a primeira edição
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
