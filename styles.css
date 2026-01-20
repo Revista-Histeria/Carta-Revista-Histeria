@@ -150,6 +150,76 @@ body {
   font-family: "Style Script", cursive;
 }
 
+@media (max-width: 580px) {
+  body {
+    background-image: url(./assets/creak\ board.png);
+  }
+
+  .card-container {
+    width: 510px;
+    height: 680px;
+  }
+
+  .form-paragraph {
+    font-size: 16px;
+  }
+
+  .form-content h2 {
+    font-size: 16px;
+  }
+
+  .form-input {
+    padding: 10px;
+  }
+
+  .submit-button {
+    height: 48px;
+  }
+
+  .signature-block p {
+    font-size: 18px;
+  }
+
+  .signature-block span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: url(./assets/creak\ board.png);
+  }
+
+  .card-container {
+    width: 510px;
+    height: 680px;
+  }
+
+  .form-paragraph {
+    font-size: 16px;
+  }
+
+  .form-content h2 {
+    font-size: 16px;
+  }
+
+  .form-input {
+    padding: 10px;
+  }
+
+  .submit-button {
+    height: 48px;
+  }
+
+  .signature-block p {
+    font-size: 18px;
+  }
+
+  .signature-block span {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 425px) {
   body {
     background-image: url(./assets/creak\ board.png);
